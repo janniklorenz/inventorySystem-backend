@@ -1,7 +1,7 @@
 # InventorySystem Backend
 
 ## Config
-Currenty in `config.py`
+Currenty in `config.py`. Copy from template file `config.py.template`
 
 
 
