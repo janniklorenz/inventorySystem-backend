@@ -26,7 +26,7 @@ class Job(db.Model):
         self.description = new.description
 
 class JobSchema(ma.ModelSchema):
-    location = ma.Nested('LocationSchema')
+    location = ma.Nested('LocationSchema', allow_none=True)
     events = ma.Nested('EventSchema', many=True)
     class Meta(BaseSchema.Meta):
         model = Job

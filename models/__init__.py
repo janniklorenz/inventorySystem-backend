@@ -30,8 +30,10 @@ from models.tag import Tag,TagSchema
 from models.device import Device,DeviceSchema,DeviceSchemaSmall
 from models.hasOwner import HasOwner
 from models.user import User,UserSchema
-from models.instance import Instance,InstanceSchema
-from models.inventory import Inventory,InventorySchema
+
 from models.location import Location,LocationSchema
 from models.event import Event,EventSchema
 from models.job import Job,JobSchema
+
+from models.instance import Instance,InstanceSchema
+from models.inventory import Inventory,InventorySchema
