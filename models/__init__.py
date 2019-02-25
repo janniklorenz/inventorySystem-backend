@@ -15,6 +15,7 @@ class BaseSchema(ModelSchema):
         sqla_session = db.session
 
 # Order matters!
+from models.group import Group,GroupSchema
 from models.hasTags import HasTags
 from models.tag import Tag,TagSchema
 from models.device import Device,DeviceSchema,DeviceSchemaSmall

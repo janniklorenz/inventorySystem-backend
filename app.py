@@ -21,6 +21,10 @@ from resources.Location import LocationResource, LocationListResource
 api.add_resource(LocationListResource, '/location')
 api.add_resource(LocationResource, '/location/<locationID>')
 
+from resources.Group import GroupResource, GroupListResource
+api.add_resource(GroupListResource, '/group')
+api.add_resource(GroupResource, '/group/<groupID>')
+
 from resources.Inventory import InventoryResource, InventoryListResource
 api.add_resource(InventoryListResource, '/inventory')
 api.add_resource(InventoryResource, '/inventory/<inventoryID>')
